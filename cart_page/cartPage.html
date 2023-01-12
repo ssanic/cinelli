@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cart Page</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./cartPage.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="site-logo">
+                <img src="../main_page/images/cinelli.png" alt="aster-logo">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li class="nav-item">
+                        <a href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">MORE BIKES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">CONTACTS</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="icons-box">
+                <div>
+                    <a href="#">Sign in</a>
+                </div>
+                <div class="sign-up">
+                    <a href="#">Sign up</a>
+                </div>
+                <div class="bag-icon">
+                    <img src="../main_page/images/shopping-cart.png" alt="bag-icon">
+                </div>
+            </div>
+        </header>
+
+        <main class="main-container">
+            <section class="cart-container">
+                <div>
+                    <h2>Cart</h2>
+                </div>
+                <div class="cart-box-titles">
+                    <div>
+                        <p>Product</p>
+                    </div>
+                    <div>
+                        <p>Quantity</p>
+                    </div>
+                    <div>
+                        <p>Price</p>
+                    </div>
+                    <div>
+                        <p>To pay</p>
+                    </div>
+                    <div></div>
+                </div>
+                <div class="cart-box-item">
+                    <div class="product-data">
+                        <img src="../main_page/images/parallax.jpg" alt="">
+                        <p>Cinelli Parallax</p>
+                    </div>
+                    <div class="amount">
+                        <input type="number" />
+                    </div>
+                    <div class="item-price">
+                        <p>1400 $</p>
+                    </div>
+                    <div class="item-total-price">
+                        <p>1400 $</p>
+                    </div>
+                    <div class="remove">
+                        <img src="./images/remove.png" alt="remove-icon">
+                    </div>
+                </div>
+                <div class="sumup-box">
+                    <div class="text">
+                        <p>Totsl:</p>
+                        <p>1400 $</p>
+                    </div>
+                </div>
+                <div class="cart-btn">
+                    <div>
+                        <p>
+                            <a href="#">Back to main page</a>
+                        </p>
+                    </div>
+                    <div>
+                        <button>Checkout</button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+    <script src="cartPage.js"></script>
+    </body>
+</html>
